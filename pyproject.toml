@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nifty-alerts"
+version = "0.1.0"
+description = "Live NIFTY 50 option signal + notification platform (MVP)"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools]
+packages = ["app"]
